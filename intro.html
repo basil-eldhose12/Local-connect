@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LocalConnect - Professional Local Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: cyan;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px blue;
+            padding: 2.5rem 2rem 2rem 2rem;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        .heading-blue {
+            color: blue;
+            font-size: 2.3rem;
+            font-weight: bold;
+            margin-bottom: 1.1rem;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: blue;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+        .mission-box {
+            background-color: lightblue;
+            border: 2px solid cyan;
+            border-radius: 8px;
+            padding: 1.2rem 1rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+        .mission-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: blue;
+            margin-top: 0;
+            margin-bottom: 0.7rem;
+        }
+        .mission-text {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: black;
+        }
+        #getStartedBtn {
+            background-color: blue;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 12px 36px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background 0.3s, color 0.2s, transform 0.18s;
+            margin-top: 0.5rem;
+        }
+        #getStartedBtn:hover {
+            background-color: deepskyblue;
+            color: white;
+            transform: translateY(-2px) scale(1.04);
+        }
+            .container {
+                padding: 1.2rem 0.5rem;
+            }
+            .heading-blue {
+                font-size: 1.3rem;
+            }
+            .mission-box {
+                padding: 0.7rem 0.5rem;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading-blue">LocalConnect</div>
+        <div class="subtitle">Professional Local Services Directory</div>
+        <div class="mission-box">
+            <div class="mission-title">Our Mission</div>
+            <div class="mission-text">
+                LocalConnect is a platform designed to connect users with trusted local service providers like plumbers, electricians, and mechanics. Our mission is to make it easy, secure, and efficient to find reliable professionals in your area. We provide verified provider profiles with ratings and reviews to help users make informed choices. By supporting transparency and quality, we aim to build a trusted network that benefits both customers and service providers. Our goal is to simplify local service discovery and create a better experience for everyone involved.
+            </div>
+        </div>
+        <button id="getStartedBtn">Get Started</button>
+    </div>
+    <script>
+        document.getElementById('getStartedBtn').addEventListener('click', function() {
+            window.location.href = 'Role.html';
+        });
+    </script>
+</body>
+</html>
